@@ -19,36 +19,15 @@ int main(void) {
     printf("vvedite simvol nuzhnogo deystvia");
     scanf("%c", &X);
     if (X==0) {c=a+b;}
-        else
-        {if (X==1)}
-        {c=a-b;}
-            else
-            {if (X==2)}
-            {c=a*b;}
-
-
-
-
-
-
-
-
-    /*   else if (X==2)
-        c=a*b;
-    else if (X==3)
-        c=a/b;
-    else if (X==4)
-
-        for (float i=a,j=b;     i>=0,j>=0;   i=i-1, j=j-1)                                       // factor  chisel
-        {c=a*i, d=b*j}
-
-    else if (X==5)
-                                                 // vozvedenie v stepen'
-        for (float i=0;i<=b;i++) {a*a;}
-
-
-
-
-
-
-
+        else if (X==1)
+            {c=a-b;}
+        else if (X==2)
+                {c=a*b;}
+        else if (X==3)
+                {c=a*b;}
+        else if (X==4)
+                 {for (float i=a,j=b;     i>=0,j>=0;   i=i-1, j=j-1)                                       // factor  chisel
+                {c=a*i, d=b*j}}
+        else (X==5)
+                {for (float i=0;i<=b;i++) {c=a*a;}}
+    return 0;
