@@ -37,10 +37,10 @@ int main(void) {
               for (i=a; i>0; i=i-1) c=a*a;
               break;
               case 5:
-              for (i=b; i>0; i=i-1) c=a*a;
+              for (i=b; i>0; i=i-1) c=a*i;
               break;
               default:
-                  puts ("vvedite znak deystvia!");
+                  puts ("vvedite poriadkoviy nomer deystvia!");
               }
 printf ("calculator poschital. otvet: %f", c);
 
